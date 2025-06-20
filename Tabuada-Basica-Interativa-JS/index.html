@@ -9,19 +9,25 @@
     
     <body>
         <header>
-            Gerar tabuada de multiplicação   
+            Tabuada    
         </header>
 
         <section>
             <div >
-               <p>Digite um número: 
-                    <input type="number" name="strNumero" id="strNumero"> 
-                    <input type="button" id="btnClick" value="Gerar Tabuada"> 
+               <p>Digite um número: <input type="number" name="" id="strNum">
+                 <input type="button" value="Gerar Tabuada" id="btnGerar"></p>
+                <p>Escolha operação: 
+                    <select name="" id="selectOperacao" size="1">
+                        <option value="operacao1">+ soma</option>
+                        <option value="operacao2">- subtração</option>
+                        <option value="operacao3">× multiplicação</option>
+                        <option value="operacao4">÷ divisão</option>
+                    </select>
                 </p>
             </div>
             
-            <div id="res">
-                Digite um número para criar sua tabuada
+            <div id="divTab">
+                Digite um número para gerar uma tabuada
             </div>
 
         </section>
