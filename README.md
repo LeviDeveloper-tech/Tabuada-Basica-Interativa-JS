@@ -1,32 +1,32 @@
-# 🧮 Projeto: Gerador de Tabuada de Multiplicação em JavaScript
+# 🧮 Projeto: Gerador de Tabuada Multifunções em JavaScript
 
-Este projeto é um exercício prático desenvolvido durante meus estudos de **JavaScript básico**, com o objetivo de criar uma aplicação web que **gera a tabuada de multiplicação de qualquer número informado pelo usuário**.
+Este projeto é um exercício prático feito durante meus estudos de **JavaScript básico**, com foco na criação de uma aplicação web capaz de gerar tabuadas de **soma**, **subtração**, **multiplicação** ou **divisão**, conforme a escolha do usuário.
 
 ---
 
 ## 📌 Sobre o Projeto
 
-O sistema permite que o usuário digite um número e, ao clicar no botão **"Gerar Tabuada"**, exibe a tabuada de 1 até 10 para o número escolhido.
+O sistema permite ao usuário:
 
-Ao abrir a página, uma mensagem inicial orienta o usuário:  
-**"Digite um número para criar sua tabuada"**
+1. **Informar um número**
+2. **Escolher a operação desejada** (soma, subtração, multiplicação ou divisão)
+3. **Gerar a tabuada** correspondente (de 1 até 10)
 
-O projeto tem foco em:
-
-- **Manipulação de DOM**
-- **Validação de entrada**
-- **Criação dinâmica de elementos HTML**
-- **Uso de estruturas de repetição (`for`)**
+A aplicação exibe o resultado em formato de lista `<select>`, com cada linha mostrando o cálculo correspondente.
 
 ---
 
 ## ⚙️ Funcionalidades
 
 - ✅ Validação para impedir que o campo de número fique vazio  
-- ✅ Geração dinâmica da tabuada de multiplicação (de 1 até 10)  
-- ✅ Exibição da tabuada em formato de lista `<select>` com múltiplas linhas  
-- ✅ Interface simples, amigável e centralizada com CSS básico  
-- ✅ Mensagem inicial orientando o usuário antes da interação  
+- ✅ Opção para escolher a operação:  
+  - Soma (+)  
+  - Subtração (-)  
+  - Multiplicação (×)  
+  - Divisão (÷)  
+- ✅ Geração da tabuada com resultados de 1 até 10  
+- ✅ Exibição da tabuada em uma lista interativa  
+- ✅ Interface simples, organizada e com mensagens de orientação ao usuário  
 
 ---
 
@@ -42,11 +42,12 @@ O projeto tem foco em:
 
 Este projeto tem como foco:
 
-- Capturar e validar valores de inputs
-- Praticar **laços de repetição (`for`)**
-- Criar e manipular elementos HTML dinamicamente
-- Trabalhar com **eventos e escutadores (`addEventListener`)**
-- Melhorar o uso de **CSS básico para layout e aparência**
+- Praticar **eventos com `addEventListener`**
+- Trabalhar com **estruturas de decisão (`switch-case`)**
+- Criar **elementos HTML dinamicamente**
+- Exercitar **laços de repetição (`for`)**
+- Aprender **manipulação de DOM** com JavaScript puro
+- Melhorar a experiência do usuário com **validações e mensagens amigáveis**
 
 ---
 
@@ -55,12 +56,13 @@ Este projeto tem como foco:
 1. Faça o download dos arquivos ou clone o repositório.
 2. Abra o arquivo `index.html` em um navegador web moderno.
 3. Digite um número no campo de entrada.
-4. Clique em **"Gerar Tabuada"**.
-5. A tabuada será exibida logo abaixo, em formato de lista.
+4. Escolha a operação desejada no menu de seleção.
+5. Clique em **"Gerar Tabuada"**.
+6. A tabuada escolhida será exibida logo abaixo.
 
 ---
 
 ## 📝 Observação
 
-Este projeto faz parte da minha trajetória de aprendizado em desenvolvimento web. Também mantenho outros projetos mais avançados (**JSF**, **Hibernate**, **PostgreSQL**, etc) disponíveis no meu perfil.
+Este projeto faz parte da minha jornada de aprendizado em desenvolvimento web. Também mantenho outros projetos mais avançados (**JSF**, **Hibernate**, **PostgreSQL**, etc) no meu perfil.
 
